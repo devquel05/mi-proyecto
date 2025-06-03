@@ -5,7 +5,7 @@
     <title>HOLA BIENVENDIDO A MI MUNDO</title>
     <style>
       body {
-        font-family: Helvética;
+        font-family: Helvetica;
         padding: 40px;
         background-color: withe
       }
@@ -19,26 +19,35 @@
       
       }
       p {
-        font-family: Arial;
+        font-family: Arial !important;
         color: #65465f;
         text-align: left; 
       }
   
 
       img {
-        width: 80px;
+        width: 280px;
         border-radius: 35px;
+        align-content: center;
       }
 
       .encolorrosado{
       	color: #7200ff !important;
       }
 
+      .encolornegro{
+        color: #581845 !important;
+      }
+      .pruebadelista{
+        color: #581845 !important;
+        font-family: candara !important ;
+      }
+
     </style>
   </head>
   <body>
     <!-- Títulos -->
-    <h1>MI NOMBRE ES RAQUEL rodriguez</h1>
+    <h1>MI NOMBRE ES RAQUEL Rodriguez</h1>
     <h2><em>HOBBIES</em></h2>
     <!-- Párrafo con negrita y cursiva -->
     <p>
@@ -58,11 +67,11 @@
     <p class="encolorrosado">El perro que aparece aquí es golden retriever<br />Tengo 3 perros <br> Pitusa<br>Clara<br>Moises
 
     <!-- Lista sin orden -->
-    <h3>Lista de compras:</h3>
+    <h3 class="pruebadelista">Lista de compras:</h3>
     <ul>
-      <li>Pan</li>
-      <li>Leche</li>
-      <li>Huevos</li>
+      <li class="encolorrojo">Pan</li>
+      <li class="encolornegro">Leche</li>
+      <li class="encolorrosado"> <strong>Huevos<strong/> </li>
     </ul>
 
     <!-- Lista ordenada -->
